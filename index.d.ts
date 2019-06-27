@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { GestureResponderEvent } from 'react-native'
+import * as React from "react";
+import { GestureResponderEvent } from "react-native";
 
 interface IProps {
     switchOn: boolean;
@@ -11,21 +11,20 @@ interface IProps {
     circleColorOff?: string;
     circleColorOn?: string;
     duration?: number;
-    type?: number,
-    buttonText?: string,
-    backTextRight?: string,
-    backTextLeft?: string,
-    buttonTextStyle?: any,
-    textRightStyle?: any,
-    textLeftStyle?: any,
-    buttonStyle?: any,
-    buttonContainerStyle?: any,
-    rightContainerStyle?: any,
-    leftContainerStyle?: any
+    type?: number;
+    buttonText?: string;
+    backTextRight?: string;
+    backTextLeft?: string;
+    buttonTextStyle?: any;
+    textRightStyle?: any;
+    textLeftStyle?: any;
+    buttonStyle?: any;
+    buttonContainerStyle?: any;
+    rightContainerStyle?: any;
+    leftContainerStyle?: any;
+    disabled: boolean;
 }
 
-declare class SwitchToggle extends React.Component<IProps, any> {
-
-}
+declare class SwitchToggle extends React.Component<IProps, any> {}
 
 export default SwitchToggle;
